@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Untitled";
+    src: url("../fonts/Untitled.ttf");
+}
+
+* {}
+
+body {
+}
+
+.intro {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #424242;
+    max-width: 41rem;
+}
+
+.subtext {
+    font-family: "Untitled";
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+a {
+    color : #f44336;
+    text-decoration: none;
+     cursor: url("../images/pencil.png"), pointer;
+}
