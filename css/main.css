@@ -1,6 +1,22 @@
 @font-face {
+    font-family: 'PublicSans-ExtraLight';
+    src: url('../fonts/PublicSans-ExtraLight.woff') format('woff');
+         url('../fonts/PublicSans-ExtraLight.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PublicSans-Thin';
+    src: url('../fonts/PublicSans-Thin.woff') format('woff');
+         url('../fonts/PublicSans-Thin.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Untitled";
-    src: url("../fonts/Untitled.ttf");
+    src: url("../fonts/PublicSans-Light.ttf");
 }
 
 * {}
@@ -16,10 +32,10 @@ body {
 }
 
 .subtext {
-    font-family: "Untitled";
+    font-family: "PublicSans-Thin";
     padding-top: 20px;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 26px;
 }
 
 a {
