@@ -34,6 +34,7 @@ body {
 .subtext {
     font-family: "PublicSans-Thin";
     padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 1.5;
     font-size: 26px;
 }
