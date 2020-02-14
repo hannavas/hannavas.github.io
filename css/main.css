@@ -18,15 +18,14 @@ body {
 }
 
 .section {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     color: #424242;
-    max-width: 36.6rem;
+    max-width: 34rem;
 }
 
 .subtext {
     font-family: "RegolaPro-Book";
-    padding: 3rem;
     font-size: 20px;
     line-height: 1.62;
 }
@@ -37,6 +36,17 @@ a {
     cursor: url("../images/pencil.png"), pointer;
 }
 
-mobile {
+.mobile {
+    max-width: 16rem;
+    padding-left: 3rem;
+}
 
+.caption {
+    font-family: "RegolaPro-Book";
+    font-size: 20px;
+    line-height: 1.62;
+}
+
+.space {
+  height: 3rem;
 }
