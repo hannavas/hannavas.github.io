@@ -17,7 +17,7 @@
 body {
 }
 
-.intro {
+.section {
     padding-left: 3rem;
     padding-right: 3rem;
     color: #424242;
@@ -26,8 +26,7 @@ body {
 
 .subtext {
     font-family: "RegolaPro-Book";
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 3rem;
     font-size: 20px;
     line-height: 1.62;
 }
@@ -35,5 +34,9 @@ body {
 a {
     color: #f44336;
     text-decoration: none;
-     cursor: url("../images/pencil.png"), pointer;
+    cursor: url("../images/pencil.png"), pointer;
+}
+
+mobile {
+
 }
