@@ -1,10 +1,16 @@
 @font-face {
-    font-family: 'PublicSans-ExtraLight';
-    src: url('../fonts/PublicSans-ExtraLight.woff') format('woff');
-         url('../fonts/PublicSans-ExtraLight.ttf') format('truetype'),
+    font-family: 'RegolaPro-Regular';
+    src: url('../fonts/RegolaPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}å
+}
+
+@font-face {
+    font-family: 'RegolaPro-Book';
+    src: url('../fonts/RegolaPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {}
 
@@ -19,7 +25,7 @@ body {
 }
 
 .subtext {
-    font-family: "PublicSans-ExtraLight";
+    font-family: "RegolaPro-Book";
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
