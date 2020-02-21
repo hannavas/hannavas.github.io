@@ -36,6 +36,10 @@ a {
     cursor: url("../images/pencil.png"), pointer;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .mobile {
     max-width: 16rem;
     padding-left: 3rem;
@@ -47,6 +51,20 @@ a {
     line-height: 1.62;
 }
 
+.line {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    color: #000000;
+    height: 1px;
+}
+
+.label {
+
+}
+
 .space {
-  height: 3rem;
+    height: 3rem;
 }
