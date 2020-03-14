@@ -51,7 +51,7 @@ a:hover {
 }
 
 dt:before {
-  content: '*';
+  /* content: '*'; */
   margin-right: 2px;
 }
 
@@ -60,7 +60,7 @@ dt {
 }
 
 dd {
-  margin-left: 14px;
+  margin-left: 0px;
   color: #989898;
 }
 
