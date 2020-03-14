@@ -51,9 +51,13 @@ a:hover {
     line-height: 1.62;
 }
 
-.line {
-    padding: 0;
-    margin: 0;
+li:before {
+content: '*';
+margin-right: 2px;
+}
+
+li {
+  list-style-type: none;
 }
 
 hr {
