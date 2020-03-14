@@ -16,6 +16,10 @@
 
 body {}
 
+h1 {
+  font-weight: 400;
+}
+
 .section {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -30,7 +34,7 @@ body {}
 }
 
 a {
-  color: #f44336;
+  color: #de3500;
   text-decoration: none;
   cursor: url("../images/pencil.png"), pointer;
 }
@@ -41,7 +45,6 @@ a:hover {
 }
 
 dt:before {
-  /* content: '*'; */
   margin-right: 2px;
 }
 
@@ -51,7 +54,7 @@ dt {
 
 dd {
   margin-left: 0px;
-  color: #767676;
+  color: #989898;
 }
 
 .label {}
