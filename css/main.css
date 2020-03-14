@@ -78,3 +78,11 @@ hr {
 .space2 {
   height: 5rem;
 }
+
+.h2custom {
+  height: 20px;
+}
+
+.w2custom {
+  width: 20px;
+}
