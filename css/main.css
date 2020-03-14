@@ -25,7 +25,7 @@ body {}
 
 .subtext {
   font-family: "RegolaPro-Book";
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.62;
 }
 
@@ -88,6 +88,11 @@ hr {
 }
 
 @media only screen and (max-device-width: 480px) {
+
+  .subtext {
+    font-family: "RegolaPro-Book";
+    font-size: 15px;
+  }
 
   .space {
     height: 1rem;
