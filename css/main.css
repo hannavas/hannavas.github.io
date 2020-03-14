@@ -86,3 +86,22 @@ hr {
 .w2custom {
   width: 20px;
 }
+
+@media only screen and (max-device-width: 480px) {
+
+  .space {
+    height: 1rem;
+  }
+
+  .section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #424242;
+    max-width: 38rem;
+  }
+
+  .space2 {
+    height: 2rem;
+  }
+
+}
