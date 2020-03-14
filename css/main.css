@@ -1,74 +1,76 @@
 @font-face {
-    font-family: 'RegolaPro-Regular';
-    src: url('../fonts/RegolaPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'RegolaPro-Regular';
+  src: url('../fonts/RegolaPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'RegolaPro-Book';
-    src: url('../fonts/RegolaPro-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'RegolaPro-Book';
+  src: url('../fonts/RegolaPro-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {}
 
-body {
-}
+body {}
 
 .section {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    color: #424242;
-    max-width: 34rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: #424242;
+  max-width: 38rem;
 }
 
 .subtext {
-    font-family: "RegolaPro-Book";
-    font-size: 20px;
-    line-height: 1.62;
+  font-family: "RegolaPro-Book";
+  font-size: 20px;
+  line-height: 1.62;
 }
 
 a {
-    color: #f44336;
-    text-decoration: none;
-    cursor: url("../images/pencil.png"), pointer;
+  color: #f44336;
+  text-decoration: none;
+  cursor: url("../images/pencil.png"), pointer;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .mobile {
-    max-width: 16rem;
-    padding-left: 3rem;
+  max-width: 16rem;
+  padding-left: 3rem;
 }
 
 .caption {
-    font-family: "RegolaPro-Book";
-    font-size: 20px;
-    line-height: 1.62;
+  font-family: "RegolaPro-Book";
+  font-size: 20px;
+  line-height: 1.62;
 }
 
-li:before {
-content: '*';
-margin-right: 2px;
+dt:before {
+  content: '*';
+  margin-right: 2px;
 }
 
-li {
+dt {
   list-style-type: none;
 }
 
+dd {
+  margin-left: 14px;
+  color: #989898;
+}
+
 hr {
-    color: #000000;
-    height: 1px;
+  color: #000000;
+  height: 1px;
 }
 
-.label {
-
-}
+.label {}
 
 .space {
-    height: 3rem;
+  height: 3rem;
 }
