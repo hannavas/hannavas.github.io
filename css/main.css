@@ -30,7 +30,7 @@ body {}
 }
 
 a {
-  color: #de3500;
+  color: #f44336;
   text-decoration: none;
   cursor: url("../images/pencil.png"), pointer;
 }
@@ -70,6 +70,14 @@ dd {
 
 .w2custom {
   width: 20px;
+}
+
+.hover-burnt:hover {
+    color: #f44336;
+}
+
+.hover-burnt:focus {
+    color: #f44336;
 }
 
 @media only screen and (max-device-width: 480px) {
