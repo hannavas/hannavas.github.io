@@ -24,10 +24,10 @@ h1 {
   padding-left: 5rem;
   padding-right: 5rem;
   color: #00000;
-  max-width: 38rem;
+  max-width: 37rem;
 }
 
-.subtext {
+.text {
   font-family: "RegolaPro-Book";
   font-size: 18px;
   line-height: 1.62;
@@ -85,7 +85,7 @@ dd {
 
 @media only screen and (max-device-width: 480px) {
 
-  .subtext {
+  .text {
     font-family: "RegolaPro-Book";
     font-size: 15px;
   }
