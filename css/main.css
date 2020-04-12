@@ -24,7 +24,7 @@ h1 {
   padding-left: 5rem;
   padding-right: 5rem;
   color: #00000;
-  max-width: 37rem;
+  max-width: 39rem;
 }
 
 .text {
@@ -33,10 +33,16 @@ h1 {
   line-height: 1.62;
 }
 
-a {
+a.pencil {
   color: #de3500;
   text-decoration: none;
   cursor: url("../images/pencil.png"), pointer;
+}
+
+a.envelope {
+  color: #de3500;
+  text-decoration: none;
+  cursor: url("../images/envelope.png"), pointer;
 }
 
 a:hover {
@@ -68,11 +74,11 @@ dd {
 }
 
 .h2custom {
-  height: 20px;
+  height: 24px;
 }
 
 .w2custom {
-  width: 20px;
+  width: 24px;
 }
 
 .hover-burnt:hover {
@@ -83,10 +89,10 @@ dd {
     color: #f44336;
 }
 
-.email {
+/* .email {
   position: relative;
   top: -0.3rem;
-}
+} */
 
 @media only screen and (max-device-width: 480px) {
 
