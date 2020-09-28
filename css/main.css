@@ -34,7 +34,7 @@ h1 {
 }
 
 a {
-  color: #de3500;
+  color: #F84D22;
   text-decoration: none;
   cursor: url("../images/pencil.png"), pointer;
 }
@@ -78,14 +78,6 @@ dl {
 
 .w2custom {
   width: 20px;
-}
-
-.hover-burnt:hover {
-    color: #f44336;
-}
-
-.hover-burnt:focus {
-    color: #f44336;
 }
 
 .email {
