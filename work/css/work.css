@@ -1,0 +1,16 @@
+.block {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  color: #00000;
+  max-width: 100%;
+}
+
+.description-column {
+  padding-right: 2.5rem;
+  width: 20rem;
+}
+
+.image-column {
+  padding-left: 2.5rem;
+}

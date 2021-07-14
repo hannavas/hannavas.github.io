@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'RegolaPro-Regular';
+  src: url('../../fonts/RegolaPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RegolaPro-Book';
+  src: url('../../fonts/RegolaPro-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.s-form {
+  z-index: 1;
+}
+
+.s-form input {
+  font-family: "RegolaPro-Book";
+  outline: 0;
+  background: #f2f2f2;
+  width: 200px;
+  border: 0;
+  margin: 0 4px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 4px;
+  height: 48px;
+}
+
+.s-form .s-button {
+  font-family: "RegolaPro-Regular";
+  font-size: 20px;
+  outline: 0;
+  background: #F84D22;
+  width: 48px;
+  border: 0;
+  margin: 0 0 0 4px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 48px;
+}
+
+.s-form .s-button:hover,
+.s-form .s-button:active,
+.s-form .s-button:focus {
+  background: #DD431D;
+}
+
+.staticrypt-body {
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
