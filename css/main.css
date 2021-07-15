@@ -81,16 +81,24 @@ dl {
   height: 5rem;
 }
 
-.heading {
+.project-name {
   font-size: 24px;
   line-height: 32px;
+}
 
 .email {
   position: relative;
   top: -0.3rem;
 }
 
-@media only screen and (max-device-width: 769px) {
+@media only screen and (max-width: 480px) {
+
+  .section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #424242;
+    max-width: 38rem;
+  }
 
   .page-title {
     font-size: 20px;
@@ -103,13 +111,6 @@ dl {
 
   .space {
     height: 1rem;
-  }
-
-  .section {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    color: #424242;
-    max-width: 38rem;
   }
 
   .space2 {
