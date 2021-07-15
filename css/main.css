@@ -12,9 +12,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Heldane-Display-Regular';
+  src: url('../fonts/heldane-display-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {}
 
-body {}
+body {
+}
+
+.page-title {
+  font-family: 'Heldane-Display-Regular';
+  font-size: 120px;
+}
 
 .section {
   padding-left: 5rem;
@@ -68,20 +81,20 @@ dl {
   height: 5rem;
 }
 
-.h2custom {
-  height: 20px;
-}
-
-.w2custom {
-  width: 20px;
-}
+.heading {
+  font-size: 24px;
+  line-height: 32px;
 
 .email {
   position: relative;
   top: -0.3rem;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 769px) {
+
+  .page-title {
+    font-size: 20px;
+  }
 
   .text {
     font-family: "RegolaPro-Book";
