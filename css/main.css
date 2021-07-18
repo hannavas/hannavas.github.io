@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'RegolaPro-Medium';
+  src: url('../fonts/RegolaPro-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {}
 
 body {
@@ -26,7 +33,7 @@ body {
 
 .page-title {
   font-family: 'Heldane-Display-Regular';
-  font-size: 120px;
+  font-size: 100px;
 }
 
 .section {
@@ -39,7 +46,7 @@ body {
 .text {
   font-family: "RegolaPro-Book";
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.72;
 }
 
 a {
@@ -82,6 +89,7 @@ dl {
 }
 
 .project-name {
+  font-family: "RegolaPro-Medium";
   font-size: 24px;
   line-height: 32px;
 }

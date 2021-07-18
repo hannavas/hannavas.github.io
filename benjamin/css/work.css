@@ -1,0 +1,78 @@
+body {
+    background-color: #EFEFEF;
+}
+
+.block {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  color: #00000;
+  max-width: 100%;
+}
+
+.description-column {
+  padding-right: 2.5rem;
+  width: 20rem;
+}
+
+.text {
+  position: sticky;
+  align-self: flex;
+  top: 5rem;
+}
+
+.image-column {
+  padding-left: 2.5rem;
+}
+
+img {
+  padding-top: 0rem;
+}
+
+dd {
+  color: #7c7c7c !important;
+  padding-bottom: 0.75rem;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .block {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .description-column {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .image-column {
+    padding-left: 0;
+  }
+
+  .page-title {
+    font-size: 60px;
+  }
+
+  .text {
+    font-family: "RegolaPro-Book";
+    font-size: 15px;
+  }
+
+  .space {
+    height: 2rem;
+  }
+
+  .section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #424242;
+    max-width: 38rem;
+  }
+
+  .space2 {
+    height: 2rem;
+  }
+
+}
